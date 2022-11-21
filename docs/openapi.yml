@@ -67,15 +67,13 @@ paths:
               schema:
                 type: object
                 properties:
-                  sample:
+                  tracks:
                     type: object
                     properties:
-                      id:
-                        type: integer
-                      name:
+                      uri:
                         type: string
-                  select_group_ids:
-                    type: object
+                      duration_ms:
+                        type: int
         '400':
           description: ''
           content:
